@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textclassnb"
+version = "0.1"
+authors = [{name="Matthijs Westera", email="m.westera@hum.leidenuniv.nl"}]
+description = "Text classification with multinomial Naive Bayes, outputting basic stats and a plot of feature importances."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["scikit-learn", "seaborn"]
+
+[project.scripts]
+textclassnb = "textclassnb:main"
+
+[project.urls]
+"Homepage" = "https://github.com/leidennlp/textclassnb"
+"Bug Tracker" = "https://github.com/leidennlp/textclassnb/issues"
