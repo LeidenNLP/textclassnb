@@ -8,7 +8,7 @@ This program invokes `scikit-learn` to fit a multinomial Naive Bayes classifier 
 
 In whichever virtual environment you want this tool to be available (else use `pipx`):
 
-`pip install git+https://github.com/leidennlp/sentclass`
+`pip install git+https://github.com/leidennlp/textclassnb`
 
 ## Usage
 
